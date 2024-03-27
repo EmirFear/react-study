@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <h2 style={{ textAlign: "center"}}>LANGUAGES</h2>
-      <Card />
+    {data.map((item, i)=>{
+    return <Card key={item.id} lang={item.language} img={item.img}/>
+  })}
     </div>
   )
 }
