@@ -1,13 +1,13 @@
-//? Component
-function App() {
-  //? JS kodu
-  const deneme = "REACT"
+import Card from "./components/card/Card"
+import data from "./data"
 
+
+
+function App() {
   return (
-    //! JSX (HTML- JS'nin birleşmiş hali)
     <div className="App">
-      <h2 style={{ color: "red" }}>Hoşgeldin Ya Şehri React</h2>
-      <p className="par">{deneme}</p>
+      <h2 style={{ textAlign: "center"}}>LANGUAGES</h2>
+      
     </div>
   )
 }
