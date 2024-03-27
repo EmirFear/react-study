@@ -1,5 +1,6 @@
-import React from 'react'
-import "./Buton.css"
+import React from "react";
+// import "./Buton.css";
+import ButonStyle from "./Buton.module.css";
 
 const Buton = () => {
   return (
